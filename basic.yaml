@@ -1,1 +1,11 @@
-
+name: Selenium_Test_Worlflow
+on: push
+jobs:
+  selenium_Test_Job1:
+    name: selenium test job 1
+    runs-on: ubuntu-20.04
+    steps:
+      -run: "This is running on ${{runner.os}} for git hub actions"
+  
+    
+    
