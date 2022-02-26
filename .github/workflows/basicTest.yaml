@@ -3,7 +3,7 @@ on: push
 jobs:
   selenium_Test_Job1:
     name: selenium test job 1
-    runs-on: ubuntu-20.04, windows-latest
+    runs-on: [ubuntu-20.04,windows-latest]
     
     steps:
       - run: echo "This is running on ${{runner.os}} for git hub actions"
